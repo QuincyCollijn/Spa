@@ -1,0 +1,23 @@
+{
+    "name": "azion/spa",
+    "description": "",
+    "authors": [
+        {
+            "name": "Roj Vroemen",
+            "email": "roj.vroemen@azion.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Azion\\Spa\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
